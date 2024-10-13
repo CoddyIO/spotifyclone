@@ -1,0 +1,140 @@
+.body{
+    background-color: black;
+}
+.title{
+    position: fixed;
+    left: 0vw;
+    top:0vw;
+    right:0vw;
+    background-color: black;
+    padding: 0.7vw;
+    padding-left: 1.5vw;
+}
+.spotify{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 0.8vw;
+}
+.home{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0.9vw;
+    left: 30vw;
+    opacity: 0.9;
+}
+.home:hover{
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    left: 29.95vw;
+    top: 0.89vw;
+    opacity: 1;
+}
+.search{
+    background-color: #464444;
+    position: absolute;
+    top: 0.6vw;
+    left: 35vw;
+    right: 30vw;
+    padding: 5px;
+    border-radius: 50px;
+    opacity: 0.8;
+    box-shadow: inset 0 2px 4px black;
+    
+}
+.search:hover{
+    opacity: 1;
+    position: absolute;
+    left:34.8vw;
+    top:0.4vw;
+
+}
+.search:hover{
+    opacity: 1;
+    border: 3px solid white;
+    position: absolute;
+    left:34.8vw;
+    top:0.4vw;
+
+}
+.searchic{
+    position: relative;
+    left: 1vw;
+    top: 0.19vw;
+    width: 30px;
+    height: 30px;
+    opacity: 0.8;
+
+}
+.searchic:hover{
+    opacity: 1;
+
+}
+.search-box{
+    background-color: #464444;
+    border: none;
+    position: absolute;
+    top: 0.8vw;
+    left: 4vw;
+    right: 6vw;
+    padding: 0.2vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    opacity: 0.5;
+    transition: none;
+    outline: none;
+    color: white;
+    border-right: 2px solid white;
+    
+}
+.search-box:hover{
+    transition: none;
+    opacity: 1;
+    color: white;
+}
+.box{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 2vw;
+    top:0.5vw;
+    opacity: 0.5;
+}
+.box:hover{
+    opacity: 1;
+}
+.signup{
+    color: white;
+    position: absolute;
+    right: 9vw;
+    top: 1.5vw;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0.8;
+}
+.signup:hover{
+    opacity: 1;
+    font-size: 16.2px;
+    position: absolute;
+    right: 8.99vw;
+}
+
+.login{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    position: absolute;
+    right: 2.1vw;
+    top: 0.9vw;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 1;
+}
+.login:hover{
+    opacity: 0.8;
+    font-size: 16.2px;
+    position: absolute;
+    right: 2.09vw;
+}
