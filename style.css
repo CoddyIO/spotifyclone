@@ -137,4 +137,51 @@
     font-size: 16.2px;
     position: absolute;
     right: 2.09vw;
+
+}
+.bottom{
+    background-color: #1d1c1c;
+    position: absolute;
+    bottom: 0.2vw;
+    right: 0vw;
+    left: 0vw;
+    top: 40vw;
+    border-radius: 20px;
+    padding: 18px;
+    border: 2px solid white;
+}
+.forward{
+    width: 58px;
+    height: 50px;
+    position: relative;
+    left: 48%;
+    top: 0vw;
+    opacity: 0.8;
+    background-color: rgb(51, 50, 50);
+    border-radius: 100%;
+}
+.forward:hover{
+    opacity: 1;
+    width: 60px;
+    height: 52px;
+    position: relative;
+    left: 47.9%;
+}
+.back{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 44%;
+    top: 0vw;
+    opacity: 0.8;
+
+
+}
+.play{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 46%;
+    opacity: 0.8;
+
 }
